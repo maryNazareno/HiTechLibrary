@@ -104,6 +104,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\Person.cs" />
     <Compile Include="Business\User.cs" />
     <Compile Include="DA\UserDA.cs" />
     <Compile Include="GUI\FormLogin.cs">

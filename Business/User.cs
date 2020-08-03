@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HiTechLibrary.DA;
 
 namespace HiTechLibrary.Business
 {
-  public class User
+  public class User 
     {
         public string UserName { get; set; }
         public string Passwd { get; set; }
@@ -21,6 +22,10 @@ namespace HiTechLibrary.Business
             this.Passwd = _passwd;
         }
 
+        public void SaveUser(User user)
+        {
+            UserDA.SaveUser(user);
+        }
 
     }
 }
