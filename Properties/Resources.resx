@@ -118,7 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="user1-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user1-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="login-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\login-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="System-users-3.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\System-users-3.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grey-background-with-office-icons-Download-Royalty-free-Vector-File-EPS-161217" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grey-background-with-office-icons-Download-Royalty-free-Vector-File-EPS-161217.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bckimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bckimg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user1-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user1-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

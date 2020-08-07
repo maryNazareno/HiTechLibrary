@@ -16,5 +16,10 @@ namespace HiTechLibrary.GUI
         {
             InitializeComponent();
         }
+
+        private void FormMIS_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
 using HiTechLibrary.Business;
+using HiTechLibrary.GUI;
 
 namespace HiTechLibrary.DA
 {
@@ -20,9 +21,10 @@ namespace HiTechLibrary.DA
                 sWriter.WriteLine(user.UserName.ToString() + " | " +
                                   user.Passwd.ToString());
                 MessageBox.Show("User data has been succesfully added", "Error",
-                                )
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         
         }
+
     }
 }

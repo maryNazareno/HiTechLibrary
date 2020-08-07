@@ -58,5 +58,30 @@ namespace HiTechLibrary.GUI
                mTxtPasswd.ForeColor = Color.Silver;
             }
         }
+
+        private void mBtnLogin_Click(object sender, EventArgs e)
+        {
+            if ((mTxtUserName.Text == "merigiichi") && (mTxtPasswd.Text == "mary101" ))
+            {
+
+                MessageBox.Show("You have login successfully!", "Information", MessageBoxButtons.OK);
+                this.Hide();
+                FormMIS formMis = new FormMIS();
+                formMis.ShowDialog();
+
+                
+            }
+            else
+            {
+                MessageBox.Show("Invalid UserName or Password, Try again!");
+            }
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
